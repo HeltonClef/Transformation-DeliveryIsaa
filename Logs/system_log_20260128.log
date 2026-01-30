@@ -1,0 +1,15 @@
+﻿2026-01-28 09:15:32 INFO - ISAA Portfolio System initialized
+2026-01-28 09:15:33 INFO - Python environment detected: Python 3.13.1
+2026-01-28 09:15:34 INFO - Required packages found: pandas, numpy
+2026-01-28 09:15:35 INFO - Output directory: C:\ISAA_Application\Output
+2026-01-28 09:15:36 INFO - Log directory: C:\ISAA_Application\Logs
+2026-01-28 09:15:37 INFO - Starting data validation demo
+2026-01-28 09:15:38 INFO - Executing: python Data-Cleaning-Scripts\data_validator.py
+2026-01-28 09:15:42 INFO - Python script completed with exit code: 0
+2026-01-28 09:15:43 INFO - Generated files: cleaned_data_20260128_091542.csv
+2026-01-28 09:15:44 INFO - Generated files: validation_report_20260128_091542.json
+2026-01-28 09:15:45 INFO - Validation completed successfully
+2026-01-28 09:15:46 INFO - Total processing time: 4.2 seconds
+2026-01-28 09:15:47 INFO - Records processed: 15
+2026-01-28 09:15:48 INFO - Valid records: 12 (80.0%)
+2026-01-28 09:15:49 INFO - System ready for next operation

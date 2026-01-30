@@ -1,0 +1,6 @@
+patient_id,patient_name,test_date,birth_date,temperature,phone_number,facility_code,test_result,age
+P001,John Doe,2024-01-15,1985-03-10,36.5,08012345678,F001,Positive,40
+P002,Jane Smith,2024-01-16,1990-07-22,37.2,2348012345679,F002,Negative,35
+P003,Bob Johnson,2024-01-17,1978-11-30,35.8,,F001,Positive,47
+P004,Alice Brown,2025-01-18,2005-02-14,42.5,08123456789,,Negative,20
+P005,Charlie Wilson,2024-01-19,1995-12-05,36.9,07012345678,F003,Negative,30

@@ -1,0 +1,20 @@
+{
+  "validation_timestamp": "2026-01-28T09:16:58.354740",
+  "validator_version": "1.0",
+  "results": {
+    "total_records": 6,
+    "valid_records": 5,
+    "issues_found": [
+      "Removed 1 duplicate records",
+      "Found 1 records with temperature outside range (35.0-42.0)",
+      "Found 1 records missing required field: facility_code",
+      "Found 1 invalid phone numbers"
+    ],
+    "summary": {
+      "completeness_rate": 83.33,
+      "cleaned_records": 5,
+      "original_records": 6,
+      "issues_count": 4
+    }
+  }
+}
