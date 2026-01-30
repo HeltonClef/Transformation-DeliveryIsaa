@@ -1,0 +1,9 @@
+﻿life_event,service,citizen_rating,processing_days,digital_adoption,status
+Starting a Business,Registration,4.2,3.2,85%,Active
+Starting a Business,Tax ID,3.8,2.1,78%,Active
+Owning a Car,Vehicle License,4.5,1.5,92%,Active
+Owning a Car,Insurance,4.0,2.8,88%,Active
+Having a Child,Birth Certificate,4.7,1.2,95%,Active
+Getting Married,Marriage License,4.4,1.8,90%,Active
+Starting a Business,Permit,3.5,4.1,72%,Needs Improvement
+Owning a Car,Emission Test,3.9,2.5,82%,Active

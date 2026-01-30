@@ -1,8 +1,8 @@
-﻿# ISAA Application Portfolio - Automation System
+# ISAA Application Portfolio - Automation System
 # Author: Oladokun Clement
 
 # Configuration
-$ProjectRoot = "C:\ISAA_Application"
+$ProjectRoot = "$PSScriptRoot"
 $PythonScript = "$ProjectRoot\Data-Cleaning-Scripts\data_validator.py"
 $OutputFolder = "$ProjectRoot\Output"
 $LogFolder = "$ProjectRoot\Logs"
@@ -37,7 +37,7 @@ function Run-Validation {
     Write-Host "Executing Python script..." -ForegroundColor Yellow
     python $PythonScript 2>&1 | Tee-Object -FilePath $logFile
     
-    Write-Host "`n✅ Demo completed!" -ForegroundColor Green
+    Write-Host "`n? Demo completed!" -ForegroundColor Green
     Write-Host "Log saved to: $logFile" -ForegroundColor Gray
     Write-Host "Check Output folder for results" -ForegroundColor Gray
     
@@ -64,7 +64,7 @@ P010,Henry Brown,2024-01-24,1982-08-19,37.5,09099887766,F003,Positive
     $sampleFile = "$OutputFolder\sample_dataset_$(Get-Date -Format 'yyyyMMdd').csv"
     $sampleData | Out-File -FilePath $sampleFile -Encoding UTF8
     
-    Write-Host "✅ Sample data created: $sampleFile" -ForegroundColor Green
+    Write-Host "? Sample data created: $sampleFile" -ForegroundColor Green
     Write-Host "Total records: 10" -ForegroundColor Gray
     Write-Host "Facilities: F001, F002, F003" -ForegroundColor Gray
     
@@ -108,7 +108,7 @@ function Push-ToGitHub {
     if (-not (Test-Path ".git")) {
         Write-Host "Git not initialized. Initializing..." -ForegroundColor Yellow
         git init
-        Write-Host "✅ Git initialized" -ForegroundColor Green
+        Write-Host "? Git initialized" -ForegroundColor Green
     }
     
     # Configure git if needed
@@ -133,7 +133,7 @@ function Push-ToGitHub {
     $commitMessage = "Add ISAA application portfolio scripts - $(Get-Date -Format 'yyyy-MM-dd')"
     git commit -m $commitMessage
     
-    Write-Host "`n✅ Ready to push to GitHub!" -ForegroundColor Green
+    Write-Host "`n? Ready to push to GitHub!" -ForegroundColor Green
     Write-Host "`nNext steps:" -ForegroundColor Yellow
     Write-Host "1. Create a new repository on GitHub.com" -ForegroundColor White
     Write-Host "2. Copy the remote URL (https://github.com/yourusername/ISAA-Portfolio.git)" -ForegroundColor White
@@ -147,7 +147,7 @@ function Push-ToGitHub {
 function Open-InVSCode {
     Write-Host "Opening project in VS Code..." -ForegroundColor Cyan
     code .
-    Write-Host "✅ VS Code should open with your project" -ForegroundColor Green
+    Write-Host "? VS Code should open with your project" -ForegroundColor Green
     Start-Sleep -Seconds 2
 }
 
