@@ -1,0 +1,20 @@
+﻿# PowerShell
+*.ps1xml
+*.pssc
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files
+*.tmp
+*.temp
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
