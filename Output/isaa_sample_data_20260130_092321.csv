@@ -1,0 +1,6 @@
+﻿ProjectID,ProjectName,Department,Budget,StartDate,Duration,Status,Manager,Priority
+PROJ-2024-001,Digital Transformation,IT,988830,2024-01-15,290 days,Active,Alex Johnson,High
+PROJ-2024-002,Market Analysis,Marketing,219176,2024-02-01,155 days,Planning,Sarah Williams,Medium
+PROJ-2024-003,Product Development,R&D,554807,2024-01-20,333 days,Active,Michael Chen,High
+PROJ-2024-004,Customer Portal,Technology,488038,2024-03-01,216 days,Planning,Emily Davis,Medium
+PROJ-2024-005,Process Optimization,Operations,351480,2024-02-15,97 days,Active,Robert Brown,High

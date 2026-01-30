@@ -1,0 +1,8 @@
+﻿=== Validation Log 2026-01-30 09:23:05 ===
+Command: python "Data-Cleaning-Scripts\data_validator.py" "sample_health_data.csv"
+Directory: C:\Users\user pc\Documents\ISAA_Application
+--- Output ---
+============================================================
+HEALTH DATA VALIDATION TOOL
+For ISAA Application - Oladokun Clement
+============================================================
